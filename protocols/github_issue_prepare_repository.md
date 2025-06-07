@@ -4,6 +4,11 @@ _This document contains the contents of a common issue that the author makes on 
 
 This issue covers the following:
 
+* Use of `uv` for projects with Python.
+  * `uv python pin 3.13`
+  * Dependencies added as groups.
+  *
+
 * Proper `poetry` file `pyproject.toml` exists:
   * `name`
   * `version`
@@ -34,6 +39,8 @@ This issue covers the following:
 * (possible) Presence of `dev-notes.md` in `assets/misc`.
 * (possible) presence of `mypy.ini` file, if using Python.
 * (possible) presence of `lintr` file, if using R.
+* (possible) Registration for `pre-commit` CI.
+* Installation of `uv` (see [here]()).
 * Between 2-5 tags on GitHub.
 * Description on GitHub.
 * If `poetry`, ensure `poetry.lock` is not tracked.
